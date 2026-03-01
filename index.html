@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login |Modern UI</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="left">
+        <h1>Welcome Back 👋</h1>
+        <p>Login to continue your journey. Clean design. Smooth experience. Modern UI.</p>
+    </div>
+
+    <div class="right">
+        <div class="form-box">
+            <h2>Login</h2>
+            <p class="subtitle">Enter your credentials</p>
+
+            <form action="#" method="POST">
+
+                <div class="input-group">
+                    <label for="email">Email Address</label>
+                    <input id="emailInp" type="email"  placeholder="email@example.com" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input  id = "pwdInp" type="password"  placeholder="••••••••" required>
+                </div>
+
+                <button onclick="login()" type="button">Login</button>
+
+                <div class="switch">
+                    Don't have an account? <a href="SignUp.html">Sign Up</a>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+</div>
+
+</body>
+<script src="./app.js"></script>
+</html>
