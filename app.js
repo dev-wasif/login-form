@@ -58,7 +58,7 @@ function login() {
 
     if (loginEmail === savedEmail && loginPassword === savedPassword) {
         alert("Login Successful! ");
-        window.location.href = "https://dev-wasif.github.io/Tech_clone/";
+        window.location.href = "https://dev-wasif.github.io/e-store/";
     } else {
         alert("Wrong Email or Password ");
 
